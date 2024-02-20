@@ -35,6 +35,7 @@ section {
   color: #fff;
   font-weight: 500;
 }
+.qua,
 .btn {
   position: relative;
   background: #2f9bf4;
@@ -47,6 +48,7 @@ section {
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: 500;
+  border-radius: 20px;
 }
 header {
   position: fixed;
@@ -241,7 +243,7 @@ img {
   text-align: center;
   padding: 5px;
 }
-.qua {
+/* .qua {
   position: relative;
   background: #2f9bf4;
   display: inline-block;
@@ -253,7 +255,8 @@ img {
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: 500;
-}
+
+} */
 
 /*Responsive*/
 @media (max-width: 991px) {
@@ -360,4 +363,8 @@ img {
   section {
     padding: 100px 20px;
   }
+}
+.text a {
+  color: #fff;
+  text-decoration: none;
 }
